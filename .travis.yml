@@ -1,0 +1,10 @@
+language: java
+jdk: oraclejdk8
+script:
+  - mvn test -B -Dmaven.test.redirectTestOutputToFile -Dmatsim.preferLocalDtds=true --fail-at-end
+env:
+  global:
+    - MAVEN_OPTS="-Xmx2g"
+cache:
+  directories:
+  - $HOME/.m2
