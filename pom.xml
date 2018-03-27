@@ -12,9 +12,11 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<!--scm> <url>https://github.com/matsim-vsp/ev</url> <connection>scm:git:git://github.com/matsim-vsp/ev.git</connection> 
-		<developerConnection>scm:git:git@github.com:matsim-vsp/ev.git</developerConnection> 
-		</scm -->
+	<scm>
+		<url>https://github.com/matsim-vsp/ev</url>
+		<connection>scm:git:git://github.com/matsim-vsp/ev.git</connection>
+		<developerConnection>scm:git:git@github.com:matsim-vsp/ev.git</developerConnection>
+	</scm>
 
 	<dependencies>
 		<dependency>
