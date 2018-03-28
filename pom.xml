@@ -18,17 +18,6 @@
 		<developerConnection>scm:git:git@github.com:matsim-vsp/ev.git</developerConnection>
 	</scm>
 
-	<distributionManagement>
-		<repository>
-			<id>matsim</id>
-			<url>http://dl.bintray.com/matsim/matsim</url>
-		</repository>
-		<snapshotRepository>
-			<id>ojo-snapshots</id>
-			<url>http://oss.jfrog.org/libs-snapshot</url>
-		</snapshotRepository>
-	</distributionManagement>
-
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
