@@ -1,4 +1,7 @@
 .project
 .settings
 .classpath
-target
+/target
+/test
+/output
+*.iml
