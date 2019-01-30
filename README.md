@@ -5,3 +5,5 @@
 EV functionality for matsim
 
 CI is run on [travis](https://travis-ci.org/matsim-vsp/ev) and (snapshot) jars are deployed to [packagecloud](https://packagecloud.io/matsim-vsp/ev/)
+
+# This project is now part of the MATSim contribs. Thus, this repository is not used anymore.
